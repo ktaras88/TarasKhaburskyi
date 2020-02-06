@@ -1,5 +1,5 @@
 def reverse(st):
-    endfirst = st.split(" ")
-    endfirst = endfirst[-1::-1]
-    st = ' '.join(endfirst)
+    endfirst = reversed(st.split())
+    endfirst = ''.join(endfirst
+    st = ' '.join(endfirst).strip()
     return st
