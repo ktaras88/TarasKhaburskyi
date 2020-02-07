@@ -1,5 +1,4 @@
-a=2
-b=3
-id(a)=
-id(b)=
+a = input("Input a: ")
+b = input("Input b: ")
+a,b = b,a
 print(a,b)
